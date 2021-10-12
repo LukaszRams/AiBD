@@ -1,0 +1,24 @@
+Zestawienie plików w folderze "Analysis Data":
+
+# Earthquake_data_answer.csv
+Plik w formacie csv z seperatorem ",", zawiera linię z nazwami kolumn oraz 8 linii danych.
+Nazwy kolumn to:
+	- "Age" - przedział wiekowy osoby badanej. 
+		Przyjmuje jedną z wartości:
+			- "18 - 29" - wiek osoby badanej pomiędzy 18, a 29 lat
+			- "30 - 44" - wiek osoby badanej pomiędzy 30, a 44 lata
+ 			- "45 - 59" - wiek osoby badanej pomiędzy 45, a 59 lat
+			- "60" - wiek osoby badanej powyżej 60 lat
+	- "Gender" - płeć osoby badanej. 
+		Przyjmuję jedną z wartości:
+			- "Female" - Kobieta
+			- "Male" - Mężczyzna
+	- "Positive" - łączna liczba odpowiedzi "Yes" na pytanie "Do you think the 'Big One' will occur in your lifetime?" dla danej grupy wiekowej i płci
+		Przyjmyje wartość całkowitą dodatnią
+	- "Negative" - łączna liczba odpowiedzi "No" na pytanie "Do you think the 'Big One' will occur in your lifetime?" dla danej grupy wiekowej i płci
+		Przyjmyje wartość całkowitą dodatnią  
+
+Przetworzone dane zajmują 8 rekordów (4 grupy wiekowe po 2 płci), a na ich podstawie widać, iż grupa wiekowa "30 - 45" lat najbardziej obawia się "Big One". Wśród kobiet najstarsza, a u facetów najmłodsza grupa najmniej obawia się kataklizmu.
+Na podstawie danych widać również, iż w każdej grupie wiekowej zostało przebadanych więcej kobiet oraz że więcej osób się nie obawia "Big One".
+
+Analizę danych można znaleźć w pliku DataAppendix.ibynb w folderze "Command Files"
